@@ -1,0 +1,195 @@
+/* Font names */
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* visually-hidden.css */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Base styles */
+
+.section {
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+}
+
+/* ----------Header styles----------*/
+
+.header {
+}
+.header-logo {
+}
+.header-logo-img {
+}
+.header-nav {
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+}
+.header-contacts {
+}
+.header-btn {
+}
+
+/* ----------Hero section styles---------- */
+
+.hero {
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-link {
+}
+.hero-uppertitle {
+}
+.hero-title {
+}
+.hero-descr {
+}
+.hero-controls {
+}
+.hero-controls-item {
+}
+.hero-controls-btn {
+}
+
+/* ----------About section styles----------- */
+
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+.about-img {
+}
+.about-uppertitle {
+}
+.about-title {
+}
+.about-subtitle {
+}
+.about-descr {
+}
+.about-btn {
+}
+
+/* ----------Price section styles----------- */
+
+.price {
+}
+.price-uppertitle {
+}
+.price-title {
+}
+.price-list {
+}
+.price-item {
+}
+.price-inner-list {
+}
+.price-inner-item {
+}
+.price-btn {
+}
+
+/* ----------Benefits section styles----------- */
+
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-quantity {
+}
+.benefits-mark {
+}
+.benefits-text {
+}
+.benefits-uppertitle {
+}
+.benefits-title {
+}
+.benefits-descr {
+}
+
+/* ----------Team section styles----------- */
+
+.team {
+}
+.team-uppertitle {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-subtitle {
+}
+.team-position {
+}
+
+/* ----------Contacts section styles----------- */
+
+.contacts {
+}
+.contacts-title {
+}
+.contacts-address {
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.contacts-link {
+}
+.contacts-upper-title {
+}
+.contacts-descr {
+}
+
+/* ----------Footer section styles----------- */
+
+.footer {
+}
+.footer-copyright {
+}
+.media-list {
+}
+.madia-item {
+}
+.media-link {
+}
