@@ -1,14 +1,106 @@
-/* Font names */
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif; */
+/* Box model * */
+
+html {
+  box-sizing: border-box;
+}
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
-/* visually-hidden.css */
+/* Variables*/
+
+:root {
+  /* Fonts */
+  --font-primary: 'Open Sans', sans-serif;
+  --font-secondary: 'Raleway', sans-serif;
+
+  /* Color  */
+  --txt-cl-primary: #555555;
+
+  --main-bg-cl: #111319;
+
+  --primary-cl: #415167;
+  --accent-cl: #c7a17a;
+  --dark-gray-cl: #151d28;
+  --light-gray-cl: #edf0f5;
+  --accent-cl-light: #f9f5e8;
+}
+
+/* Reset styles */
+
+h1,
+h2,
+h3,
+p,
+ul,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  display: block;
+}
+
+/* Base styles */
+
+body {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--txt-cl-primary);
+}
+
+.section {
+}
+
+.btn {
+}
+
+.btn-light {
+}
+
+.btn-dark {
+}
 
 .visually-hidden {
   position: absolute;
@@ -24,23 +116,12 @@ font-family: 'Raleway', sans-serif; */
   overflow: hidden;
 }
 
-/* Base styles */
-
-.section {
-}
-
-.link {
-  text-decoration: none;
-  color: inherit;
-}
-
-.list {
-  list-style: none;
-}
-
 /* ----------Header styles----------*/
 
 .header {
+  background-color: var(--main-bg-cl);
+
+  outline: 1px solid tomato;
 }
 .header-logo {
 }
@@ -65,6 +146,15 @@ font-family: 'Raleway', sans-serif; */
 }
 .hero-list {
 }
+
+.hero-list::before {
+  content: '';
+
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
+}
+
 .hero-item {
 }
 .hero-link {
@@ -192,4 +282,17 @@ font-family: 'Raleway', sans-serif; */
 .madia-item {
 }
 .media-link {
+}
+
+img:nth-child() {
+  max-width: 100%;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
